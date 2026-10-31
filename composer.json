@@ -1,0 +1,50 @@
+{
+    "name": "kipchak/middleware-response-cache",
+    "type": "middleware",
+    "description": "Response Cache Middleware for the Kipchak API Development Kit (ADK). A shared HTTP cache (RFC 9111) with ETags, conditional requests and invalidation, on Filecache, Memcached or Valkey.",
+    "keywords": [
+        "APIs",
+        "HTTP",
+        "Microservices",
+        "Mamluk",
+        "Cache",
+        "HTTP caching",
+        "ETag",
+        "Cache-Control"
+    ],
+    "homepage": "https://mamluk.net",
+    "license": "MIT",
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Kipchak\\Middleware\\ResponseCache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kipchak\\Middleware\\ResponseCache\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.4",
+        "kipchak/core": "^2 || ^3",
+        "kipchak/driver-config": "^1",
+        "kipchak/driver-filecache": "^1.28",
+        "kipchak/driver-logger": "^1",
+        "kipchak/identity": "^1.3",
+        "psr/clock": "^1",
+        "psr/http-server-middleware": "^1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12",
+        "psr/simple-cache": "^2 || ^3"
+    },
+    "suggest": {
+        "kipchak/driver-valkey": "A cache shared by every host (Kipchak Enterprise)",
+        "kipchak/driver-memcached": "A cache shared by every host"
+    }
+}

@@ -46,5 +46,23 @@
     "suggest": {
         "kipchak/driver-valkey": "A cache shared by every host (Kipchak Enterprise)",
         "kipchak/driver-memcached": "A cache shared by every host"
+    },
+    "extra": {
+        "kipchak": {
+            "type": "middleware",
+            "config": "sample.config.php",
+            "configName": "kipchak.response-cache.php",
+            "initialise": "\\Kipchak\\Middleware\\ResponseCache\\ResponseCache::initialise($app);",
+            "after": [],
+            "before": [
+                "kipchak/middleware-auth-hmac",
+                "kipchak/middleware-auth-jwks",
+                "kipchak/middleware-auth-jwt",
+                "kipchak/middleware-auth-key",
+                "kipchak/middleware-opentelemetry",
+                "kipchak/middleware-redaction"
+            ],
+            "docs": "https://kipchak.dev/docs/mw-response-cache"
+        }
     }
 }

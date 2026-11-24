@@ -8,20 +8,20 @@
     "packages": [
         {
             "name": "cuyz/valinor",
-            "version": "2.7.0",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CuyZ/Valinor.git",
-                "reference": "6e89ca1afaa8543619fd9512e4665722f225fb38"
+                "reference": "473ba512c859a4441e382ca279778a67a302971d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CuyZ/Valinor/zipball/6e89ca1afaa8543619fd9512e4665722f225fb38",
-                "reference": "6e89ca1afaa8543619fd9512e4665722f225fb38",
+                "url": "https://api.github.com/repos/CuyZ/Valinor/zipball/473ba512c859a4441e382ca279778a67a302971d",
+                "reference": "473ba512c859a4441e382ca279778a67a302971d",
                 "shasum": ""
             },
             "require": {
-                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0"
+                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0 || ~8.6.0"
             },
             "conflict": {
                 "phpstan/phpstan": "<1.0 || >= 3.0",
@@ -78,7 +78,7 @@
             ],
             "support": {
                 "issues": "https://github.com/CuyZ/Valinor/issues",
-                "source": "https://github.com/CuyZ/Valinor/tree/2.7.0"
+                "source": "https://github.com/CuyZ/Valinor/tree/2.8.0"
             },
             "funding": [
                 {
@@ -86,8 +86,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-11-12T10:33:19+00:00",
-            "published-time": "2026-11-12T10:33:37+00:00"
+            "time": "2026-11-19T15:08:51+00:00",
+            "published-time": "2026-11-19T15:22:15+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -148,16 +148,16 @@
         },
         {
             "name": "kipchak/core",
-            "version": "3.22",
+            "version": "3.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kipchak-dev/core.git",
-                "reference": "db2da1d27f2cb94dbb50d524f1a3d61c7af21e2b"
+                "reference": "b5bc17dddc822cebb2d0000b01a15245a144e29d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kipchak-dev/core/zipball/db2da1d27f2cb94dbb50d524f1a3d61c7af21e2b",
-                "reference": "db2da1d27f2cb94dbb50d524f1a3d61c7af21e2b",
+                "url": "https://api.github.com/repos/kipchak-dev/core/zipball/b5bc17dddc822cebb2d0000b01a15245a144e29d",
+                "reference": "b5bc17dddc822cebb2d0000b01a15245a144e29d",
                 "shasum": ""
             },
             "require": {
@@ -188,23 +188,23 @@
                 "microservices"
             ],
             "support": {
-                "source": "https://github.com/kipchak-dev/core/tree/3.22"
+                "source": "https://github.com/kipchak-dev/core/tree/3.23"
             },
-            "time": "2026-11-17T03:01:17+00:00",
-            "published-time": "2026-11-17T03:02:09+00:00"
+            "time": "2026-11-24T03:01:33+00:00",
+            "published-time": "2026-11-24T03:02:57+00:00"
         },
         {
             "name": "kipchak/driver-config",
-            "version": "1.36",
+            "version": "1.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kipchak-dev/driver-config.git",
-                "reference": "5d0622efd6cca8cd1aea5a4dc81500e4c207fb47"
+                "reference": "c6d02607e4c268736a9b30ea4a0dd98ab9f9fdb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kipchak-dev/driver-config/zipball/5d0622efd6cca8cd1aea5a4dc81500e4c207fb47",
-                "reference": "5d0622efd6cca8cd1aea5a4dc81500e4c207fb47",
+                "url": "https://api.github.com/repos/kipchak-dev/driver-config/zipball/c6d02607e4c268736a9b30ea4a0dd98ab9f9fdb0",
+                "reference": "c6d02607e4c268736a9b30ea4a0dd98ab9f9fdb0",
                 "shasum": ""
             },
             "require": {
@@ -241,23 +241,23 @@
                 "microservices"
             ],
             "support": {
-                "source": "https://github.com/kipchak-dev/driver-config/tree/1.36"
+                "source": "https://github.com/kipchak-dev/driver-config/tree/1.37"
             },
-            "time": "2026-11-17T03:03:01+00:00",
-            "published-time": "2026-11-17T03:04:26+00:00"
+            "time": "2026-11-24T03:03:40+00:00",
+            "published-time": "2026-11-24T03:04:56+00:00"
         },
         {
             "name": "kipchak/driver-filecache",
-            "version": "1.36",
+            "version": "1.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kipchak-dev/driver-filecache.git",
-                "reference": "5ba02f2e71f6349b513e289471d2a34969b754dc"
+                "reference": "2b70c048e9100b039770b3df905cbc354eea8f55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kipchak-dev/driver-filecache/zipball/5ba02f2e71f6349b513e289471d2a34969b754dc",
-                "reference": "5ba02f2e71f6349b513e289471d2a34969b754dc",
+                "url": "https://api.github.com/repos/kipchak-dev/driver-filecache/zipball/2b70c048e9100b039770b3df905cbc354eea8f55",
+                "reference": "2b70c048e9100b039770b3df905cbc354eea8f55",
                 "shasum": ""
             },
             "require": {
@@ -298,23 +298,23 @@
                 "microservices"
             ],
             "support": {
-                "source": "https://github.com/kipchak-dev/driver-filecache/tree/1.36"
+                "source": "https://github.com/kipchak-dev/driver-filecache/tree/1.37"
             },
-            "time": "2026-11-17T03:03:05+00:00",
-            "published-time": "2026-11-17T03:04:32+00:00"
+            "time": "2026-11-24T03:03:42+00:00",
+            "published-time": "2026-11-24T03:05:01+00:00"
         },
         {
             "name": "kipchak/driver-logger",
-            "version": "1.41",
+            "version": "1.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kipchak-dev/driver-logger.git",
-                "reference": "a76dac7940578cd0a0f9a70ea20693fe897b3d14"
+                "reference": "c0105ce20ab99b09c00272599cfb27a04ea5d992"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kipchak-dev/driver-logger/zipball/a76dac7940578cd0a0f9a70ea20693fe897b3d14",
-                "reference": "a76dac7940578cd0a0f9a70ea20693fe897b3d14",
+                "url": "https://api.github.com/repos/kipchak-dev/driver-logger/zipball/c0105ce20ab99b09c00272599cfb27a04ea5d992",
+                "reference": "c0105ce20ab99b09c00272599cfb27a04ea5d992",
                 "shasum": ""
             },
             "require": {
@@ -355,23 +355,23 @@
                 "microservices"
             ],
             "support": {
-                "source": "https://github.com/kipchak-dev/driver-logger/tree/1.41"
+                "source": "https://github.com/kipchak-dev/driver-logger/tree/1.42"
             },
-            "time": "2026-11-17T03:05:37+00:00",
-            "published-time": "2026-11-17T03:10:00+00:00"
+            "time": "2026-11-24T03:05:53+00:00",
+            "published-time": "2026-11-24T03:10:37+00:00"
         },
         {
             "name": "kipchak/identity",
-            "version": "1.9",
+            "version": "1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kipchak-dev/identity.git",
-                "reference": "46e531f1cd4d9999c7d5c18520925b5e6bcc23ec"
+                "reference": "dd09256c6207d08f84b18412d47afbcec82fde0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kipchak-dev/identity/zipball/46e531f1cd4d9999c7d5c18520925b5e6bcc23ec",
-                "reference": "46e531f1cd4d9999c7d5c18520925b5e6bcc23ec",
+                "url": "https://api.github.com/repos/kipchak-dev/identity/zipball/dd09256c6207d08f84b18412d47afbcec82fde0b",
+                "reference": "dd09256c6207d08f84b18412d47afbcec82fde0b",
                 "shasum": ""
             },
             "require": {
@@ -403,10 +403,10 @@
                 "multi-tenancy"
             ],
             "support": {
-                "source": "https://github.com/kipchak-dev/identity/tree/1.9"
+                "source": "https://github.com/kipchak-dev/identity/tree/1.10"
             },
-            "time": "2026-11-17T03:05:39+00:00",
-            "published-time": "2026-11-17T03:10:06+00:00"
+            "time": "2026-11-24T03:05:54+00:00",
+            "published-time": "2026-11-24T03:10:42+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -1294,16 +1294,16 @@
         },
         {
             "name": "radebatz/type-info-extras",
-            "version": "1.0.15",
+            "version": "1.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DerManoMann/type-info-extras.git",
-                "reference": "adb5082eae14dde073293f6674ce203f81dbb7ec"
+                "reference": "f2415d2abbf014d1f511c37a87243c80e3da0547"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DerManoMann/type-info-extras/zipball/adb5082eae14dde073293f6674ce203f81dbb7ec",
-                "reference": "adb5082eae14dde073293f6674ce203f81dbb7ec",
+                "url": "https://api.github.com/repos/DerManoMann/type-info-extras/zipball/f2415d2abbf014d1f511c37a87243c80e3da0547",
+                "reference": "f2415d2abbf014d1f511c37a87243c80e3da0547",
                 "shasum": ""
             },
             "require": {
@@ -1351,10 +1351,10 @@
             ],
             "support": {
                 "issues": "https://github.com/DerManoMann/type-info-extras/issues",
-                "source": "https://github.com/DerManoMann/type-info-extras/tree/1.0.15"
+                "source": "https://github.com/DerManoMann/type-info-extras/tree/1.0.16"
             },
-            "time": "2026-11-16T22:02:45+00:00",
-            "published-time": "2026-11-16T22:06:15+00:00"
+            "time": "2026-11-19T23:35:25+00:00",
+            "published-time": "2026-11-19T23:44:22+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -3593,16 +3593,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "12.5.44",
+            "version": "12.5.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "47d052b58672b016b512974c1139346306c8ca24"
+                "reference": "ca97be2931de6a0adf824da12889cbf935a016e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/47d052b58672b016b512974c1139346306c8ca24",
-                "reference": "47d052b58672b016b512974c1139346306c8ca24",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ca97be2931de6a0adf824da12889cbf935a016e9",
+                "reference": "ca97be2931de6a0adf824da12889cbf935a016e9",
                 "shasum": ""
             },
             "require": {
@@ -3671,7 +3671,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/12.5.44"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/12.5.45"
             },
             "funding": [
                 {
@@ -3679,8 +3679,8 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-11-13T11:09:06+00:00",
-            "published-time": "2026-11-13T11:09:57+00:00"
+            "time": "2026-11-19T12:16:09+00:00",
+            "published-time": "2026-11-19T12:17:59+00:00"
         },
         {
             "name": "psr/simple-cache",
